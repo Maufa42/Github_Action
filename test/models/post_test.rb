@@ -11,7 +11,7 @@ class PostTest < ActiveSupport::TestCase
     assert_not post.save, 'Save the post withpout a title'
   end
   test 'Should save post with title' do
-  post = Post.new(title: 'Test')
+  post = Post.new(title:  'Test')
   assert post.save, 'Idk words go here'
   end
 end
